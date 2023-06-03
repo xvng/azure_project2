@@ -1,0 +1,51 @@
+.btn-primary {
+  color:white;
+  background-color: #1862a8;
+  /*float:right;*/
+  transition: 0.5s ease;
+  border: 0px solid black;
+  border-radius: 10px;
+  }
+  
+  .custom-btn{
+    color: white;
+    background-color: #1862a8;
+  }
+  .custom-btn:hover{
+    color:white;
+    background-color: #2284e0;
+  }
+  
+  body{
+    color: rgb(255, 255, 255);
+    background-size: cover;
+    background-image: url("resim.jpg");
+    background-color: #17181a;
+}
+
+#results_div{
+  color: rgb(255, 255, 255);
+  margin-top: 5%;
+}
+
+#back{
+  padding:20px;
+  background-color: #001a3bab;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgba(0, 0, 0, 0.356);
+  border-radius: 20px;
+}
+
+#again{
+  margin-top: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+#translate_input{
+  word-break: break-all;
+}
+#translate_result{
+  word-break: break-all;
+}
